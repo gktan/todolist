@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.App h1 {
+  font-size: 30px;
+  /* color: rgb(214 213 213); */
+  margin-bottom: 80px;
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main {
+  width: 40%;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+.todoList {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin: 5px auto;
+  background-color: #f1f1f1;
+}
+
+.todoList button {
+  border: none;
+}
+
+input {
+  width: 85%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px 20px;
+  margin: 8px 0;
+}
+
+::placeholder {
+  color: #ccc;
+}
+
+.addItem {
+  width: 14%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(148 196 93);
+  color: rgb(255, 255, 255);
+  padding: 17px 20px;
+  text-decoration: none;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.deleteItem {
+  border: none;
+  border-radius: 5px;
+  color: rgb(73, 73, 73);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
